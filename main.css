@@ -1,22 +1,20 @@
 @keyframes sprint {
-  0% {margin-right: 50%; padding-left: 0%;}
-  100% {margin-left: 50%; }
+  0% {margin-right: 75%;}
+  25% {margin-left: 75%;}
+  50% {margin-right: 25%}
+  75% {margin-left: 25%;}
+  100% {margin: 0}
 }
 
 h1 {
   font-size: 500%;
   text-align: center;
   font-family: Jost;
-  padding-left: 25%;
-  padding-right: 20%;
-  display: inline-block;
-  animation: 3s linear 1s sprint;
+  animation: 3s linear 0s sprint;
 }
 
 h2 {
   font-size: 300%;
   font-family: Jost;
   text-align: center;
-  display: inline-block;
-  animation: 3s linear 10s sprint;
 }
